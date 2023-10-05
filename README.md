@@ -2,13 +2,13 @@
 
 ![Logo](build/icon.png)
 
-Super-basic mouse control for the plunger in Visual Pinball X using VJoy.
+Super-basic mouse control for the plunger in Visual Pinball X using vJoy.
 
 ## Setup
 
 ### Install and configure vJoy
 
-Install VJoy: https://github.com/njz3/vJoy/releases
+Install vJoy: https://github.com/njz3/vJoy/releases
 
 Use the Configure vJoy application to create a controller with a Z axis. Other axes and buttons are optional and won't be used by mouse-plunger.
 
@@ -16,7 +16,7 @@ Use the Configure vJoy application to create a controller with a Z axis. Other a
 
 Download and extract the latest release: https://github.com/Billiam/mouse-plunger/releases
 
-Copy `vJoyInterface.dll` from the vjoy install directory to the mouse-plunger directory
+Copy `vJoyInterface.dll` from the vJoy install directory to the mouse-plunger directory
 
 Run mouse-plunger.exe
 
