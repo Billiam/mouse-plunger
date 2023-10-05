@@ -1,3 +1,7 @@
 *.syso
 *.dll
 *.exe
+
+dist/*
+
+!.gitkeep

@@ -12,3 +12,10 @@ clean:
 	go clean
 	rm -f ${BINARY_NAME}
 	rm -f rsrc.syso
+
+dist: build
+	rm -rf dist/win
+	mkdir dist/win
+	cp ${BINARY_NAME} dist/win
+	cp README.md dist/win
+	cp LICENSE.md dist/win
