@@ -29,3 +29,9 @@ In Visual Pinball X, configure the controls to use the Z axis for the plunger (t
 After installation, whenever the mouse button is pressed, and then the mouse pulled down backward, the vJoy Z axis will be updated.
 
 Release the mouse button to release the plunger.
+
+## Limitations
+
+* mouse-plunger just reads the mouse position, so if your mouse is at the bottom of the screen when you click, you may not be able to pull back all the way
+* mouse-plunger does not know if you are actively playing Visual Pinball, or using a menu, or indeed, if it's running at all, so many mouse actions will affect the Z Axis
+
