@@ -15,7 +15,9 @@ clean:
 
 dist: build
 	rm -rf dist/win
+	rm -f dist/*.zip
 	mkdir dist/win
 	cp ${BINARY_NAME} dist/win
 	cp README.md dist/win
 	cp LICENSE.md dist/win
+	7z a dist/mouse-plunger.win64.zip ./dist/win/*
